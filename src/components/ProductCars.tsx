@@ -38,8 +38,7 @@ export const ProductCars = ({product,children,className,style,onChange,value,ini
     style={style}>
 
       {children({
-        count:state,
-        increaseBy,
+        count:state,increaseBy,
         product,
         maxCount:initialValues?.maxCount,
         isMaxCountReached: state == initialValues?.maxCount,
