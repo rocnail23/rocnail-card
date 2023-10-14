@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pruebas en productImages mostrar url en pasado por product 1`] = `
+<div
+  className="productCard undefined"
+>
+  <img
+    alt="coffe mug"
+    className="productImg undefined"
+    src="https/thisiscoffe"
+  />
+</div>
+`;
+
+exports[`pruebas en productImages mostrar url en props 1`] = `
+<img
+  alt="coffe mug"
+  className="productImg undefined"
+  src="https/cafe.com"
+/>
+`;

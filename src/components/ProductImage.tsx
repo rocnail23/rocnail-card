@@ -3,7 +3,7 @@ import noImage from "../assets/no-image.jpg"
 import styles from "../styles/styles.module.css"
 import { CarsContex } from "./ProductCars"
 
-interface Props {
+export interface Props {
     image?: string,
     className?: string,
     style?: CSSProperties

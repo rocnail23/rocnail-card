@@ -2,7 +2,7 @@ import React,{ useCallback, useContext } from "react"
 import styles from "../styles/styles.module.css"
 import { CarsContex } from "./ProductCars"
 
-interface  Props {
+export interface  Props {
     className?: string
 }
 

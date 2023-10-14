@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pruebas product cars prueba 1 snapshot de renderizado 1`] = `
+<div
+  className="productCard undefined"
+>
+  <h1>
+    ProductCars
+  </h1>
+</div>
+`;

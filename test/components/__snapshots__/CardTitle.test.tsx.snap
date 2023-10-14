@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pruebas productitle debe coincidir con el snapshot 1`] = `
+<span
+  className="productDescription undefined"
+>
+  custom product
+</span>
+`;
+
+exports[`pruebas productitle debe colocar el nombre del producto 1`] = `
+<div
+  className="productCard undefined"
+>
+  <span
+    className="productDescription undefined"
+  >
+    cafe
+  </span>
+</div>
+`;

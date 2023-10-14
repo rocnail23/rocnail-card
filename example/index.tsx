@@ -5,7 +5,7 @@ import { ProductCars } from '../src/components/index';
 
 const product = {
   id: 1,
-  name: "taza"
+  title: "taza"
 }
 
 const App = () => {
@@ -14,7 +14,9 @@ const App = () => {
       <ProductCars
         product={product}
         className="bg-dark"
-        initialValues={0}
+        initialValues={{
+          count:4
+        }}
       >
         {({
           count,
